@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'abdurahim/ibtlearning'
+    env.IMAGE = 'abdurahim/ibt-amazon-app'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/abdurahim50/argocd-amazon-manifest.git'  
