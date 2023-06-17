@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: abdurahim/ibt-amazon-app:14
+        image: abdurahim/ibt-amazon-app:15
         ports:
         - containerPort: 3000
         
